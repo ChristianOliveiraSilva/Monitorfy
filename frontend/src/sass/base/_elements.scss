@@ -77,12 +77,11 @@ html {
 body {
   font-family: Nunito, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-  font-size: $global-font-size;
-
   background-color: $color-primary;
   color: $color-secondary;
   font-size: $global-font-size;
   line-height: $global-line-height;
+  padding: 35px;
 }
 
 :focus-visible {
