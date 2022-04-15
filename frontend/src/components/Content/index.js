@@ -7,7 +7,7 @@ import Performance from "./setors/performance.js"
 
 function App() {
   return (
-    <section className="">
+    <section className="flex">
       <Process />
       <Services />
       <Performance />

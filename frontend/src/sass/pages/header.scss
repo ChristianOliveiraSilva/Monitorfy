@@ -1,0 +1,25 @@
+
+
+.header{
+
+    display: flex;
+    justify-content: baseline;
+    align-items: space-between;
+
+    .header-logo {
+        flex: 1 1 auto;
+    }
+    
+    .header-option {
+        flex: 1 1 auto;
+        text-align: right;
+
+        a {
+            margin-left: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

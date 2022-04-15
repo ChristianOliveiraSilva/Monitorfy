@@ -28,3 +28,16 @@
 @import "base/elements";
 @import "base/generics";
 @import "base/a11y";
+
+// ==========================================================================
+// Global Style
+// ==========================================================================
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+    & > div {
+        border: 1px solid #ccc;
+    }
+}
