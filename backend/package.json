@@ -8,6 +8,7 @@
   "author": "Christian de Oliveira Silva",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "ps-list": "^7.1.0"
   }
 }

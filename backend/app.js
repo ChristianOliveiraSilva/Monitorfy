@@ -6,11 +6,9 @@ const performance = require('./routes/performance')
 const others = require('./routes/others')
 
 const app = express()
-const port = 80
+const port = 8000
 
 app.set('json spaces', 2);
-
-app.use(express.static(path.resolve(__dirname, '../frontend/build')));
 
 app.get('/process', process);
 app.get('/services', services);
